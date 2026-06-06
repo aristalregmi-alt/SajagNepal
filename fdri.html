@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FDRI Dashboard | SafeNepal </title>
+
+<link rel="stylesheet" href="fdri.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🏆 Family Disaster Readiness Index</h1>
+
+    <p class="subtitle">
+
+        Overall preparedness assessment for your family.
+
+
+             </p>
+
+             <div class="main-card">
+
+    <h2>Overall FDRI Score</h2>
+
+    <div class="progress-circle">
+        <span id="fdriValue">0</span>
+    </div>
+
+    <div id="fdriCategory" class="category">
+        Loading...
+    </div>
+
+    <div class="summary-card">
+
+        <h3>Family Readiness Summary</h3>
+
+        <p id="summaryText"></p>
+
+    </div>
+
+    <div class="cards">
+
+
+        <div class="index-card">
+
+            <h3>🏠 Earthquake Index</h3>
+
+            <p id="earthquakeScore">0</p>
+
+        </div>
+
+        <div class="index-card">
+
+            <h3>🌊 Flood Index</h3>
+
+            <p id="floodScore">0</p>
+
+        </div>
+
+        <div class="index-card">
+
+            <h3>⛰️ Landslide Index</h3>
+
+            <p id="landslideScore">0</p>
+
+        </div>
+
+    </div>
+
+    <div class="strength-card">
+
+        <h3>🏅 Strongest Area</h3>
+
+        <p id="strongestArea"></p>
+
+    </div>
+
+    <div class="recommendation-card">
+
+        <h2>Priority Area for Improvement</h2>
+
+        <p id="priorityArea"></p>
+
+        <ul id="priorityRecommendations"></ul>
+
+    </div>
+
+    <div class="dashboard-actions">
+
+        <a href="index.html" class="action-btn">
+            🏠 Back Home
+        </a>
+
+        <a href="advisor.html" class="action-btn">
+            🤖 AI Advisor
+        </a>
+
+         <button id="downloadPdfBtn" class="action-btn">
+        📄 Download Report
+    </button>
+
+
+    </div>
+
+</div>
+
+        <div class="progress-container">
+
+<div class="progress-circle">
+
+<span id="fdriValue">78</span>
+
+</div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="fdri.js"></script>
+
+</body>
+</html>

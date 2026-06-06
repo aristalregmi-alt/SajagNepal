@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -329,4 +330,337 @@ Start Assessment
     </footer>
      <script src="script.js"></script>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SajagNepal | Family Disaster Readiness Platform</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+              <div class="floating-icons">
+
+                      <span>🛡️</span>
+                      <span>🌊</span>
+                      <span>⛰️</span>
+                      <span>🏠</span>
+                      <span>🚨</span>
+
+                </div>
+
+    <!-- NAVBAR -->
+
+    <button id="themeToggle">
+               🌙
+                </button>
+                
+    <header class="navbar">
+
+        <div class="logo">
+            🇳🇵 SajagNepal
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="earthquake.html">Earthquake</a>
+            <a href="flood.html">Flood</a>
+            <a href="landslide.html">Landslide</a>
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>SajagNepal</h1>
+
+<h2>
+Family Disaster Readiness Platform
+</h2>
+
+<h3 id="welcomeMessage"></h3>
+
+<p>
+Assess • Prepare • Protect
+</p>
+
+<h3 id="welcomeMessage"></h3>
+
+<div class="hero-dashboard">
+
+<div class="dashboard-box">
+
+<h3>🏆 FDRI Score</h3>
+
+<p id="homeFdriScore">0</p>
+
+</div>
+
+<div class="dashboard-box">
+
+<h3>🛡️ Preparedness Level</h3>
+
+<p id="homeFdriCategory">Loading...</p>
+
+</div>
+
+<div class="dashboard-box">
+
+<h3>🏅 Family Badge</h3>
+
+<p id="familyBadge">Loading...</p>
+
+</div>
+
+</div>
+
+<a href="#assessmentSection" class="hero-btn">
+Start Assessment
+</a>
+
+</div>
+
+</section>
+
+
+    <!-- STATS -->
+
+    <section class="stats">
+
+        <div class="stat-card">
+            <h2>3</h2>
+            <p>Major Disaster Types</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>25+</h2>
+            <p>Preparedness Indicators</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>1</h2>
+            <p>Family Readiness Index</p>
+        </div>
+
+    </section>
+
+
+    <!-- DISASTER CARDS -->
+
+    <section class="cards" id="assessmentSection">
+
+
+
+        <div class="card earthquake-card">
+
+            <div class="emoji">🏠</div>
+
+            <h2>Earthquake Safety</h2>
+
+            <p>
+                Evaluate structural safety, emergency planning
+                and family preparedness.
+            </p>
+
+            <a href="earthquake.html">
+                Begin Assessment →
+            </a>
+
+        </div>
+
+
+        <div class="card flood-card">
+
+            <div class="emoji">🌊</div>
+
+            <h2>Flood Safety</h2>
+
+            <p>
+                Assess evacuation readiness, warning systems
+                and emergency supplies.
+            </p>
+
+            <a href="flood.html">
+                Begin Assessment →
+            </a>
+
+        </div>
+
+
+        <div class="card landslide-card">
+
+            <div class="emoji">⛰️</div>
+
+            <h2>Landslide Safety</h2>
+
+            <p>
+                Measure environmental risk and community
+                preparedness.
+            </p>
+
+            <a href="landslide.html">
+                Begin Assessment →
+            </a>
+
+        </div>
+
+            <div class="card">
+
+         <div class="emoji">🏆</div>
+
+         <h2>FDRI Dashboard</h2>
+
+         <p>View your overall family disaster readiness score.</p>
+
+         <a href="fdri.html">Open Dashboard →</a>
+
+        </div>
+
+        <div class="card">
+
+              <div class="emoji">📊</div>
+
+                   <h2>Risk Dashboard</h2>
+
+              <p>
+                    View disaster-specific risk levels.
+              </p>
+
+                    <a href="risk.html">
+                                Open →
+                    </a>
+
+                </div>
+             
+
+
+        <div class="card">
+
+       <div class="emoji">🤖</div>
+
+       <h2>AI Disaster Advisor</h2>
+       <p>Get personalized preparedness guidance.</p>
+
+       <a href="advisor.html">Open →</a>
+
+       </div>
+
+
+       <div class="card">
+
+       <div class="emoji">🚨</div>
+
+        <h2>Emergency Contacts</h2>
+        <p>Access important emergency numbers.</p>
+
+        <a href="emergency.html">Open →</a>
+
+        </div>
+
+        <div class="card">
+
+        <div class="emoji">✅</div>
+
+        <h2>Preparedness Checklist</h2>
+        <p>Track your family's readiness.</p>
+
+        <a href="checklist.html">Open →</a>
+
+        </div>
+
+        <div class="card profile-card">
+
+    <div class="emoji">👨‍👩‍👧</div>
+
+    <h2>Family Profile</h2>
+
+    <p>
+        Save your family profile for personalized readiness tracking.
+    </p>
+
+    <input
+    type="text"
+    id="familyNameInput"
+    placeholder="Enter Family Name">
+
+    <button onclick="saveFamilyName()">
+        Save Profile
+    </button>
+
+</div>
+
+        <div class="tip-card"> 
+
+        <h2>💡 Safety Tip of the Day</h2>
+
+        <p id="tip"></p>
+
+        </div>
+    </section>     
+
+      
+                
+
+
+    <!-- FEATURES -->
+
+    <section class="features">
+
+        <h2>What SajagNepal Provides</h2>
+
+        <div class="feature-grid">
+
+            <div class="feature-box">
+                ✓ Disaster Preparedness Assessment
+            </div>
+
+            <div class="feature-box">
+                ✓ Personalized Recommendations
+            </div>
+
+            <div class="feature-box">
+                ✓ FDRI Score Generation
+            </div>
+
+            <div class="feature-box">
+                ✓ Family Safety Awareness
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3> SajagNepal © 2026</h3>
+
+        <p> 
+            All rights reserved.
+        </p>
+
+        <p>
+            Built by 4RISTAL with high concern for a safer and alert Nepal through awareness,
+            preparedness and technology.
+        </p>
+
+    </footer>
+     <script src="script.js"></script>
+
+>>>>>>> c9409f0 (Initial SajagNepal Release)
 </body>

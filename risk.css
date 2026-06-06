@@ -1,0 +1,26 @@
+body{
+font-family:Poppins,sans-serif;
+background:#f8fafc;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px;
+}
+
+#riskCards{
+display:flex;
+gap:25px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.risk-card{
+width:280px;
+background:white;
+padding:30px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}

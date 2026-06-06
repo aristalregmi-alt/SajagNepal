@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Landslide Assessment | SafeNepal</title>
+
+<link rel="stylesheet" href="landslide.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🏠 Landslide Preparedness Assessment</h1>
+
+    <p class="subtitle">
+        Answer 8 questions to evaluate your family's landslide readiness.
+    </p>
+
+    <div class="progress-container">
+        <div id="progressBar"></div>
+    </div>
+
+    <div id="questionCounter">
+        Question 1 of 8
+    </div>
+
+    <div id="percentageDisplay">    </div>
+
+    <div class="card">
+
+        <div id="questionIcon" class="icon">
+            🏠
+        </div>
+
+        <h2 id="questionText"></h2>
+
+        <div id="options"></div>
+
+        <div class="buttons">
+
+            <button id="prevBtn">
+                Previous
+            </button>
+
+            <button id="nextBtn">
+                Next
+            </button>
+
+        </div>
+
+    </div>
+
+    <div id="resultCard" class="hidden">
+
+    <h2>Earthquake Preparedness Index</h2>
+
+    <div class="result-summary">
+
+        <div id="scoreDisplay"></div>
+
+        <div id="categoryDisplay"></div>
+
+        <div id="messageDisplay"></div>
+
+    </div>
+
+    <div class="recommendation-card">
+
+        <h3>Personalized Recommendations</h3>
+
+        <ul id="recommendationsList"></ul>
+
+    </div>
+
+    <div class="result-buttons">
+
+        <button id="homeBtn">
+            🏠 Home
+        </button>
+
+        <button id="nextAssessmentBtn">
+             View FDRI Dashboard
+            </button>
+
+    </div>
+
+</div>
+
+<script src="landslide.js"></script>
+
+</body>
+</html>

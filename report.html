@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SafeNepal Report</title>
+
+<link rel="stylesheet" href="report.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="report-container">
+
+    <div class="header">
+        <h1>🇳🇵 SafeNepal</h1>
+        <h2>Family Disaster Preparedness Report</h2>
+    </div>
+
+    <div class="section">
+        <h3>Family Information</h3>
+
+        <p><strong>Family Name:</strong> <span id="familyName">Not Provided</span></p>
+
+        <p><strong>Date:</strong> <span id="reportDate"></span></p>
+    </div>
+
+    <div class="section">
+        <h3>Preparedness Scores</h3>
+
+        <div class="score-grid">
+
+            <div class="score-card">
+                <h4>🏠 Earthquake</h4>
+                <p id="earthquakeScore">0</p>
+            </div>
+
+            <div class="score-card">
+                <h4>🌊 Flood</h4>
+                <p id="floodScore">0</p>
+            </div>
+
+            <div class="score-card">
+                <h4>⛰️ Landslide</h4>
+                <p id="landslideScore">0</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section">
+
+        <h3>Overall FDRI</h3>
+
+        <div id="fdriScore" class="fdri-score">0</div>
+
+        <div id="fdriCategory" class="category"></div>
+
+    </div>
+
+    <div class="section">
+
+        <h3>Priority Improvement Area</h3>
+
+        <p id="priorityArea"></p>
+
+    </div>
+
+    <div class="section">
+
+        <h3>Recommendations</h3>
+
+        <ul id="recommendations"></ul>
+
+    </div>
+
+    <div class="button-group">
+
+        <button onclick="window.print()">
+            🖨 Print / Save as PDF
+        </button>
+
+        <button onclick="window.location.href='fdri.html'">
+            ← Back to Dashboard
+        </button>
+
+    </div>
+
+</div>
+
+<script src="report.js"></script>
+
+</body>
+</html>
